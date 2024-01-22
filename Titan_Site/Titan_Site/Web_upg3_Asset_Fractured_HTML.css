@@ -1,0 +1,133 @@
+body {
+    background-image: url("Assets/Monarchs_Reign.png");
+    height: 1080px;
+    width: 1920px;
+    background-attachment: fixed;
+    background-color: #0b1b24;
+
+}
+
+.Fixed
+{
+    position: fixed;
+    top: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+h1.title {
+    font-size: 30px;
+}
+
+p {
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+}
+
+dd {
+    color: #ffffff;
+}
+
+p.contents {
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.container {
+    text-align: center;
+}
+
+.important {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+ul.List {
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #0b1b24;
+    width: 900px;
+    padding: 30px 30px;
+}
+
+div {
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+ul.List li {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width: 900px;
+}
+
+ul.List li b {
+
+    font-size: 30px;
+    border-width: 2px;
+}
+
+ul.summary {
+    border-style: solid;
+    border-width: 1px;
+    position: sticky;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    width: 200px;
+    padding: 10px 10px;
+    background-color: #0b1b24;
+}
+
+ul.summary li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 160px;
+}
+
+ul li dd {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+ul li b a {
+    text-decoration: none;
+}
+
+a.link {
+    text-decoration: none;
+}
+a.link:link {color: #18a8cc;}
+a.link:visited {color: #18a8cc;}
+a.link:hover {
+    color: #003cff;
+    text-decoration: underline;
+}
+
+div.container {
+    text-align: center;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script>
+        function validate() {
+            let x = document.forms["the_form"]["secret"].value;
+            if(x==1325){
+                alert("YAY");
+            }
+        }
+
+    </script>
+</head>
+<body>
+
+
+<h2>Learn HTML Forms</h2>
+<p>Input Types</p>
+
+<form name="the_form" onsubmit="return validate()">
+
+
+    date: <input type="date" id="form_date"> <br>
+    month; <input type="month" id="form_month"> <br>
+
+    email: <input type="email"  id="form_email"> <br>
+
+    file: <input type="file" multiple> <br><br>
+
+    namn: <input type="text" name="name" required autofocus> (required --> måste ange) <br><br>
+
+
+    Text with placehlder and pattern <br>
+    Whats my secret 4 digit number? :
+    <input type="text" name="secret" placeholder="1234" pattern="[0-9]{4}" maxlength=4><br>
+    Write something nice:<br>
+    <input type="text" id="lovelyText" placeholder="Write something nice" disabled><br>
+    <input type="text" id="joking" size=40 placeholder="Sorry about that. write something nice here:" readonly><br>
+
+    <input type="hidden" id="custId" name="custId" value="3487"><br>
+
+    <input list="Snacks">
+    <datalist id="Snacks" name="snack" multiple>
+        <option value="Candy" >
+        <option value="Ice cream">
+        <option value="Soda">
+    </datalist>
+
+
+
+
+    <fieldset>
+        <input type="checkbox" id="Agree1" name="Agree1" value="money" checked>
+        <label for="Agree1"> I agree to handing over all my possessions at the request of this site</label><br>
+        <input type="checkbox" id="Agree2" name="Agree2" value="soul" checked>
+        <label for="Agree2"> I herby hand over my soul as payment to sign up</label><br>
+        <input type="checkbox" id="Agree3" name="Agree3" value="read">
+        <label for="Agree3"> I have read and agree with the terms of service</label><br>
+
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </fieldset>
+
+</form>
+
+</body>
+</html>
+
+
+
+<!--
+  https://www.w3schools.com/html/html_form_input_types.asp
+  https://www.w3schools.com/html/html_form_attributes.asp
+  https://www.w3schools.com/tags/att_input_pattern.asp
+
+  https://www.w3schools.com/html/html_form_attributes_form.asp
+  -->

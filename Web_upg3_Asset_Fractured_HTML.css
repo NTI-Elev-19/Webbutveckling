@@ -1,0 +1,107 @@
+body {
+    background-color: #ffffff;
+}
+h1 {
+    color: #000000;
+    text-align: center;
+}
+
+h1.title {
+    font-size: 30px;
+}
+
+p {
+    color: #000000;
+}
+
+p.contents {
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.container {
+    text-align: center;
+}
+
+li.important {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+ul.List {
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    border-style: solid;
+    border-width: 1px;
+    width: 1000px;
+    padding: 40px 40px;
+}
+
+div {
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+ul.List li {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width: 920px;
+}
+
+ul.List li b {
+
+    font-size: 30px;
+    border-width: 2px;
+}
+
+ul.summary {
+    position: sticky;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    width: 200px;
+    padding: 10px 10px;
+}
+
+ul.summary li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 160px;
+}
+
+ul li dd {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+ul li b a {
+    text-decoration: none;
+}
+ul li b a:link {color: #000000;}
+ul li b a:visited {color: #000000;}
+ul li b a:hover {
+    color: #003cff;
+    text-decoration: underline;
+}
+ul p a:link {color: #000000;}
+ul p a:visited {color: #000000;}
+ul p a:hover {color: #003cff;}
+
+div.container {
+    text-align: center;
+}
