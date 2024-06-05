@@ -2,32 +2,254 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Web_Shop</title>
+    <title>SZ Assets</title>
+
+    <!-- CSS link -->
+
     <link rel="stylesheet" href="frontpage.css">
+
+    <!-- CSS link for w3 css-->
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-<div class = wrapper >
-    <div class = "container-product" >
-        <div class="flex-container" style="position: relative;">
+<div>
 
-            <div class="product-description">
-                <h2>SPORTING</h2>
-                <p>REPEATER &amp; SINGLE-SHOT</p>
-                <p>We are keeping up the state-of- the-art technology, we strongly believe in innovation, we have been studying new solutions to apply to the components of our firearms since the very first day.</p>
-                <p>And that’s how our Sporting series is born, our contribution to the sport field.<br>
-                    We create our systems with an Anima®, to become reliable partners for the best shooters.<br>
-                    We design accurate rifles to place in the hands of sport shooters aiming for successes. Choose among our Victrix Sporting systems, welcome to the line of fire.</p>
-                <div class="vx-new-hp-weapons-mode">
-                    <img class="vx-new-mode-slide" src="https://www.victrixarmaments.com/wp-content/themes/victrix/img/slider.png" alt="slider" data-cmp-ab="2" data-cmp-info="10">
-                    <span class="vx-new-mode-divider"></span>
-                    <img class="vx-new-mode-grid" src="https://www.victrixarmaments.com/wp-content/themes/victrix/img/grid.png" alt="grid" data-cmp-ab="2" data-cmp-info="10">
+    <!--
+
+        Uses w3 css for items in order to cisplay correctly on narrower screens
+
+        Also is a navbar for navigation of page
+
+    -->
+
+    <div class="flex-navbar" style="position: relative;">
+        <div class="w3-row-padding w3-margin-top" style="padding-bottom: 15px;">
+
+            <!-- Logo for the company -->
+
+            <div class="w3-quarter">
+                <div class="w3-card">
+                    <div class="w3-container">
+                        <img src="Assets/Logotype.png" alt="" style="width: 100%; height: 100%">
+                    </div>
                 </div>
             </div>
 
-            <div class="product-image " style= "background-image: url('Assets/image.jpg')"></div>
+            <!-- Sends user to the loggin page -->
 
+            <div class="w3-quarter" >
+                <div class="w3-card">
+                    <div class="w3-container">
+                        <a href="Loggin.html" class="w3-button w3-black" style="width: 100%; height: 100%">Log Out</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sends user to the meshes product line page -->
+
+            <div class="w3-quarter" >
+                <div class="w3-card">
+                    <div class="w3-container">
+                        <a href="#meshes" class="w3-button w3-black" style="width: 100%; height: 100%">Meshes</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sends user to the stencils product line page -->
+
+            <div class="w3-quarter" >
+                <div class="w3-card">
+                    <div class="w3-container">
+                        <a href="#stencils" class="w3-button w3-black" style="width: 100%; height: 100%">Stencils</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+</div>
+
+<!-- Mesh product line -->
+
+<div class = wrapper >
+    <div class = "container-product" >
+
+        <!-- Products Description -->
+
+        <div class="flex-container w3-row" style="position: relative;">
+            <div class="product-description w3-col w3-container m6 ">
+                <h2 id="meshes" >MESHES</h2>
+                <p>Meshes &amp; Objects</p>
+                <p>Meshes off all kinds for all your 3d rendering needs.</p>
+                <p>Everything is for free as this website has charitable goals in mind. <br>
+                    These models were handcrafted by our own professional cats stepping on keyboards.<br>
+                    The models are simple and have not been UV-Unwrapped.</p>
+            </div>
+
+            <!-- Product thumbnail -->
+
+            <div class="product-image " style= "background-image: url('Assets/Image1.png')"></div>
+        </div>
+
+        <!-- Product list -->
+
+        <div class="flex-container" style="position: relative;">
+            <div class="w3-row-padding w3-margin-top" style="padding-bottom: 15px;">
+
+                <!-- Products that forward to the checkout page when interracted with -->
+
+                <a href="Checkout.html">
+                    <div class="w3-quarter">
+                        <div class="w3-card">
+                            <div class="w3-container">
+                                <h4 style="text-align: left">Cube 1</h4>
+                            </div>
+                            <img src="Assets/Cube1.png" style="width:100%">
+                            <div class="w3-container">
+                                <p style="text-align: left">The most standard cube</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="Checkout.html">
+                    <div class="w3-quarter">
+                        <div class="w3-card">
+                            <div class="w3-container">
+                                <h4 style="text-align: left">Cube 2</h4>
+                            </div>
+                            <img src="Assets/Cube2.png" style="width:100%">
+                            <div class="w3-container">
+                                <p style="text-align: left">A fancier version of the standard</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="Checkout.html">
+                    <div class="w3-quarter">
+                        <div class="w3-card">
+                            <div class="w3-container">
+                                <h4 style="text-align: left">Cube 3</h4>
+                            </div>
+                            <img src="Assets/Cube3.png" style="width:100%">
+                            <div class="w3-container">
+                                <p style="text-align: left">A fancier version of cube 2</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="Checkout.html">
+                    <div class="w3-quarter">
+                        <div class="w3-card">
+                            <div class="w3-container">
+                                <h4 style="text-align: left">Cube 4</h4>
+                            </div>
+                            <img src="Assets/Cube4.png" style="width:100%">
+                            <div class="w3-container">
+                                <p style="text-align: left">A fancier version of cube 4</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Stencils product line -->
+
+<div class = wrapper >
+    <div class = "container-product" >
+
+        <!-- Products Description -->
+
+        <div class="flex-container w3-row" style="position: relative;">
+            <div class="product-description w3-col w3-container m6 ">
+                <h2 id="stencils">STENCILS</h2>
+                <p>Stencils &amp; Alphas</p>
+                <p>Simple stencils for everyday use, fit for photoshop users and texturers alike.</p>
+                <p>Everything is for free as this website has charitable goals in mind.<br>
+                    The stencils can be downloaded by pressing right click and saving image as.<br>
+                    The stencils are simple offering easy to use assets for everyone.</p>
+            </div>
+
+            <!-- Product thumbnail -->
+
+            <div class="product-image " style= "background-image: url('Assets/Image0.png')"></div>
+        </div>
+
+        <!-- Product list -->
+
+        <div class="flex-container" style="position: relative;">
+            <div class="w3-row-padding w3-margin-top" style="padding-bottom: 15px;">
+
+                <!-- Products that forward to the checkout page when interracted with -->
+
+                <a>
+                    <div class="w3-quarter">
+                        <div class="w3-card">
+                            <div class="w3-container">
+                                <h4 style="text-align: left">Numbers 1</h4>
+                            </div>
+                            <img src="Assets/Numbers1.png" style="width:100%">
+                            <div class="w3-container">
+                                <p style="text-align: left">The number 16, can be usefull</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a>
+                    <div class="w3-quarter">
+                        <div class="w3-card">
+                            <div class="w3-container">
+                                <h4 style="text-align: left">Numbers 2</h4>
+                            </div>
+                            <img src="Assets/Numbers2.png" style="width:100%">
+                            <div class="w3-container">
+                                <p style="text-align: left">The number 28, very usefull</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a>
+                    <div class="w3-quarter">
+                        <div class="w3-card">
+                            <div class="w3-container">
+                                <h4 style="text-align: left">Pointer 1</h4>
+                            </div>
+                            <img src="Assets/Pointer1.png" style="width:100%">
+                            <div class="w3-container">
+                                <p style="text-align: left">Pointer, quite thin aswell</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a>
+                    <div class="w3-quarter">
+                        <div class="w3-card">
+                            <div class="w3-container">
+                                <h4 style="text-align: left">Pointer 2</h4>
+                            </div>
+                            <img src="Assets/Pointer2.png" style="width:100%">
+                            <div class="w3-container">
+                                <p style="text-align: left">Pointer, this is rather wide</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
 </div>
 </body>
 </html>

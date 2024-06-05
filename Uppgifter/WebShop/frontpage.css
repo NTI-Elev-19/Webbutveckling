@@ -9,11 +9,21 @@ body {
     background-color: #fff;
 }
 
+/* General information for the file above */
+
 .flex-container {
     display: flex;
     align-items: stretch;
     padding-left: 10px;
     background-image: linear-gradient(to bottom, #ececec 0%, #ececec 100%), linear-gradient(to bottom, rgba(240, 40, 40, 1) 0%, rgba(240, 40, 40, 1) 100%);
+    background-clip: content-box, padding-box;;
+}
+
+.flex-navbar {
+    display: flex;
+    align-items: stretch;
+    padding-left: 10px;
+    background-image: linear-gradient(to bottom, #000000 0%, #000000 100%), linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
     background-clip: content-box, padding-box;;
 }
 
@@ -36,7 +46,7 @@ body {
 
 .product-description{
     width: 30%;
-    padding: 15px;
+    padding: 15px 30px;
 }
 
 .product-image{
@@ -54,8 +64,5 @@ body {
 
 .wrapper {
     background-color: #d7d7d7;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 50px 25px;
 }
